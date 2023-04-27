@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-Bootstrap</title>
+    <!-- CSS LINK -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+</head>
+<body>
+    <!-- Responsive variations also exist for .d-flex and .d-inline-flex.
+         * d-flex
+         * d-inline-flex
+         * d-sm-flex
+         * d-sm-inline-flex
+         * d-md-flex
+         * d-md-inline-flex
+         * d-lg-flex
+         * d-lg-inline-flex
+         * d-xl-flex
+         * d-xl-inline-flex
+         * d-xxl-flex
+         * d-xxl-inline-flex
+        -->
+    <!-- FLEXBOX CONTAINER -->
+    <!-- <div class="container border">
+        <h3>FLEX</h3>
+        <div class="d-flex bg-dark-subtle">I'm a flexbox container!</div>
+    </div> -->
+
+    <!-- INLINE FLEXBOX CONTAINER -->
+    <!-- <div class="container border">
+        <h3>INLINE-FLEX</h3>
+        <div class="d-inline-flex bg-success-subtle">I'm an inline flexbox container!</div>
+    </div> -->
+
+    <!-- Responsive variations also exist for flex-direction.
+         * flex-row
+         * flex-row-reverse
+         * flex-column
+         * flex-column-reverse
+    -->
+    <!-- FLEX ROW & ROW-REVERSE EXAMPLE -->
+    <!-- <div class="container bg-danger-subtle">
+        <div class="d-flex flex-row">
+            <div class="p-2 m-2 bg-success-subtle">Flex item 1</div>
+            <div class="p-2 m-2 bg-info-subtle">Flex item 2</div>
+            <div class="p-2 m-2 bg-warning-subtle">Flex item 3</div>
+          </div>
+          <div class="d-flex flex-row-reverse">
+            <div class="p-2 m-2 bg-success-subtle">Flex item 1</div>
+            <div class="p-2 m-2 bg-info-subtle">Flex item 2</div>
+            <div class="p-2 m-2 bg-warning-subtle">Flex item 3</div>
+          </div>
+    </div> -->
+
+    <!-- FLEX-COLUMN & FLEX-COLUMN-REVERSE -->
+    <!-- <div class="container bg-danger-subtle">
+        <div class="d-flex flex-column">
+            <div class="p-2 bg-success-subtle">Flex item 1</div>
+            <div class="p-2 bg-info-subtle">Flex item 2</div>
+            <div class="p-2 bg-warning-subtle">Flex item 3</div>
+          </div>
+    </div>
+<br>
+    <div class="container bg-danger-subtle">
+          <div class="d-flex flex-column-reverse">
+            <div class="p-2 bg-success-subtle">Flex item 1</div>
+            <div class="p-2 bg-info-subtle">Flex item 2</div>
+            <div class="p-2 bg-warning-subtle">Flex item 3</div>
+          </div>
+    </div> -->
+
+    <!-- JUSTIFY CONTENT
+         justify-content utilities on flexbox containers to change the alignment of flex items on the main axis (the x-axis to start, y-axis if flex-direction: column). Choose from start (browser default), end, center, between, around, or evenly.
+         * justify-content-start
+         * justify-content-end
+         * justify-content-center
+         * justify-content-around
+         * Justify-content-evenly
+    -->
+    <!-- <div class="bg-light-subtle mb-2 container">
+        <div class="d-flex justify-content-start bg-info">
+            <div class="p-1 m-1 bg-dark-subtle">Justify</div>
+            <div class="p-1 m-1 bg-dark-subtle">Content</div>
+            <div class="p-1 m-1 bg-dark-subtle">Start</div>
+        </div>
+    </div>
+    <div class="bg-light-subtle mb-2 container">
+        <div class="d-flex justify-content-end bg-info">
+            <div class="p-1 m-1 bg-dark-subtle">Justify</div>
+            <div class="p-1 m-1 bg-dark-subtle">Content</div>
+            <div class="p-1 m-1 bg-dark-subtle">End</div>
+        </div>
+    </div>
+    <div class="bg-light-subtle mb-2 container">
+        <div class="d-flex justify-content-center bg-info">
+            <div class="p-1 m-1 bg-dark-subtle">Justify</div>
+            <div class="p-1 m-1 bg-dark-subtle">Content</div>
+            <div class="p-1 m-1 bg-dark-subtle">Center</div>
+        </div>
+    </div>
+    <div class="bg-light-subtle mb-2 container">
+        <div class="d-flex justify-content-between bg-info">
+            <div class="p-1 m-1 bg-dark-subtle">Justify</div>
+            <div class="p-1 m-1 bg-dark-subtle">Content</div>
+            <div class="p-1 m-1 bg-dark-subtle">Between</div>
+        </div>
+    </div>
+    <div class="bg-light-subtle mb-2 container">
+        <div class="d-flex justify-content-around bg-info">
+            <div class="p-1 m-1 bg-dark-subtle">Justify</div>
+            <div class="p-1 m-1 bg-dark-subtle">Content</div>
+            <div class="p-1 m-1 bg-dark-subtle">Around</div>
+        </div>
+    </div>
+    <div class="bg-light-subtle mb-2 container">
+        <div class="d-flex justify-content-evenly bg-info">
+            <div class="p-1 m-1 bg-dark-subtle">Justify</div>
+            <div class="p-1 m-1 bg-dark-subtle">Content</div>
+            <div class="p-1 m-1 bg-dark-subtle">Evenly</div>
+        </div>
+    </div> -->
+
+    <!-- ALIGN ITEMS
+         Use align-items utilities on flexbox containers to change the alignment of flex items on the cross axis (the y-axis to start, x-axis if flex-direction: column). Choose from start, end, center, baseline, or stretch (browser default).
+         * align-items-start
+         * align-items-end
+         * align-items-center
+         * align-items-baseline
+         * align-items-stretch
+        -->
+    <!-- <div class="container">
+        <div class="bg-info m-2 align-items-start d-flex" style="height: 75px;">
+            <div class="p-1 m-1 bg-dark-subtle">Flex</div>
+            <div class="p-1 m-1 bg-dark-subtle">Items</div>
+            <div class="p-1 m-1 bg-dark-subtle">Start</div>
+        </div>
+
+    <div class="bg-info m-2 d-flex align-items-end" style="height: 75px;">
+            <div class="p-1 m-1 bg-dark-subtle">Justify</div>
+            <div class="p-1 m-1 bg-dark-subtle">Content</div>
+            <div class="p-1 m-1 bg-dark-subtle">End</div>
+        </div>
+
+    <div class="bg-info m-2 d-flex align-items-center" style="height: 75px;">
+            <div class="p-1 m-1 bg-dark-subtle">Justify</div>
+            <div class="p-1 m-1 bg-dark-subtle">Content</div>
+            <div class="p-1 m-1 bg-dark-subtle">Center</div>
+        </div>
+
+    <div class="bg-info m-2 d-flex align-items-baseline" style="height: 75px;">
+            <div class="p-1 m-1 bg-dark-subtle">Justify</div>
+            <div class="p-1 m-1 bg-dark-subtle">Content</div>
+            <div class="p-1 m-1 bg-dark-subtle">Between</div>
+        </div>
+
+    <div class="bg-info m-2 d-flex align-items-stretch" style="height: 75px;">
+            <div class="p-1 m-1 bg-dark-subtle">Justify</div>
+            <div class="p-1 m-1 bg-dark-subtle">Content</div>
+            <div class="p-1 m-1 bg-dark-subtle">Around</div>
+        </div>
+    </div> -->
+
+    <!-- ALIGN SELF
+         Use align-self utilities on flexbox items to individually change their alignment on the cross axis (the y-axis to start, x-axis if flex-direction: column). Choose from the same options as align-items: start, end, center, baseline, or stretch (browser default).
+         * align-self-start
+         * align-self-end
+         * align-self-center
+         * align-self-baseline
+         * align-self-stretch
+        -->
+    <!-- <div class="container bg-danger-subtle d-flex mb-2" style="height: 75px;">
+        <div class="border bg-primary">Flex item</div>
+        <div class="align-self-start border bg-secondary">Aligned flex item</div>
+        <div class="border bg-info">Flex item</div>
+    </div>
+    <div class="container bg-danger-subtle d-flex mb-2" style="height: 75px;">
+        <div class="border bg-primary">Flex item</div>
+        <div class="align-self-end border bg-secondary">Aligned flex item</div>
+        <div class="border bg-info">Flex item</div>
+    </div>
+    <div class="container bg-danger-subtle d-flex mb-2" style="height: 75px;">
+        <div class="border bg-primary">Flex item</div>
+        <div class="align-self-center border bg-secondary">Aligned flex item</div>
+        <div class="border bg-info">Flex item</div>
+    </div>
+    <div class="container bg-danger-subtle d-flex mb-2" style="height: 75px;">
+        <div class="border bg-primary">Flex item</div>
+        <div class="align-self-baseline border bg-secondary">Aligned flex item</div>
+        <div class="border bg-info">Flex item</div>
+    </div>
+    <div class="container bg-danger-subtle d-flex mb-2" style="height: 75px;">
+        <div class="border bg-primary">Flex item</div>
+        <div class="align-self-stretch border bg-secondary">Aligned flex item</div>
+        <div class="border bg-info">Flex item</div>
+    </div> -->
+
+    <!-- GROW & SHRINK -->
+    <!-- flex-grow-* utilities to toggle a flex item’s ability to grow to fill available space. In the example below, the .flex-grow-1 elements uses all available space it can, while allowing the remaining two flex items their necessary space. -->
+    <!-- <div class="d-flex bg-info-subtle">
+        <div class="p-2 flex-grow-1 border border-2 border-black">Flex item</div>
+        <div class="p-2 border border-2 border-black">Flex item</div>
+        <div class="p-2 border border-2 border-black">Third flex item</div>
+    </div> -->
+
+    <!-- flex-shrink-* utilities to toggle a flex item’s ability to shrink if necessary. In the example below, the second flex item with .flex-shrink-1 is forced to wrap its contents to a new line, “shrinking” to allow more space for the previous flex item with .w-100. -->
+    <!-- <div class="d-flex bg-info-subtle">
+        <div class="p-2 w-100 border border-2 border-black">Flex item</div>
+        <div class="p-2 flex-shrink-1 border border-2 border-black">Flex item</div>
+    </div> -->
+
+    <!-- AUTO MARGINS
+    Flexbox can do some pretty awesome things when you mix flex alignments with auto margins. Shown below are three examples of controlling flex items via auto margins: default (no auto margin), pushing two items to the right (.me-auto), and pushing two items to the left (.ms-auto).
+    -->
+    <!-- <div class="d-flex mb-3 bg-success-subtle">
+        <div class="p-2 border border-1 border-dark-subtle">Flex item</div>
+        <div class="p-2 border border-1 border-dark-subtle">Flex item</div>
+        <div class="p-2 border border-1 border-dark-subtle">Flex item</div>
+      </div>
+
+      <div class="d-flex mb-3 bg-success-subtle">
+        <div class="me-auto p-2 border border-1 border-dark-subtle">Flex item</div>
+        <div class="p-2 border border-1 border-dark-subtle">Flex item</div>
+        <div class="p-2 border border-1 border-dark-subtle">Flex item</div>
+      </div>
+
+      <div class="d-flex mb-3 bg-success-subtle">
+        <div class="p-2 border border-1 border-dark-subtle">Flex item</div>
+        <div class="p-2 border border-1 border-dark-subtle">Flex item</div>
+        <div class="ms-auto p-2 border border-1 border-dark-subtle">Flex item</div>
+      </div> -->
+
+    <!-- AUTO MARGINS WITH ALIGN-ITEMS
+    Vertically move one flex item to the top or bottom of a container by mixing align-items, flex-direction: column, and margin-top: auto or margin-bottom: auto.
+    -->
+    <!-- <div class="d-flex align-items-start flex-column mb-3 bg-danger-subtle" style="height: 200px;">
+        <div class="mb-auto p-2 border border-1 border-dark-subtle">Flex item</div>
+        <div class="p-2 border border-1 border-dark-subtle">Flex item</div>
+        <div class="p-2 border border-1 border-dark-subtle">Flex item</div>
+      </div>
+
+      <div class="d-flex align-items-end flex-column mb-3 bg-danger-subtle" style="height: 200px;">
+        <div class="p-2 border border-1 border-dark-subtle">Flex item</div>
+        <div class="p-2 border border-1 border-dark-subtle">Flex item</div>
+        <div class="mt-auto p-2 border border-1 border-dark-subtle">Flex item</div>
+      </div> -->
+
+    <!-- WRAP
+    Change how flex items wrap in a flex container. Choose from no wrapping at all (the browser default) with .flex-nowrap, wrapping with .flex-wrap, or reverse wrapping with .flex-wrap-reverse.
+    -->
+
+    <!-- JS LINK -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
